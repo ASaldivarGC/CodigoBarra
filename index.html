@@ -85,14 +85,17 @@
         }
         #barcode-container {
             margin-top: 20px;
-            width: 100%;
-            max-width: 600px;
             background-color: #ffffff; /* fondo blanco para el código de barras */
             border: 2px solid #ff9800; /* borde Naranja */
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             padding: 20px;
             box-sizing: border-box;
+            display: inline-block; /* Make the container fit the content */
+        }
+        #barcode {
+            width: 100%; /* Make the barcode fill the container */
+            height: auto; /* Adjust height automatically */
         }
         .footer {
             width: 100%;
